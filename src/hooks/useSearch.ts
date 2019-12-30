@@ -101,8 +101,6 @@ export default (urlQuery: string | null) => {
           // Set repo items
           setItems(reposResult.data);
 
-          console.log(reposResult.data);
-
           // Set not pending
           setPending(false);
 
