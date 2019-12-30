@@ -85,7 +85,7 @@ export default (urlQuery: string | null) => {
 
     // Search request success ..
     try {
-      // Capture search reults
+      // Capture search results
       const usersResult = (await api.searchUsers(searchValue)) as any;
 
       // If items found ..
